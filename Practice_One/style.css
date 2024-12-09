@@ -36,8 +36,9 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     padding: 3%;
+    color: rgb(235, 82, 82);
 }
 
 .shade-box .element {
@@ -46,5 +47,6 @@ body {
     text-wrap: wrap;
     padding: 3%;
     align-content: center;
+    margin: 1%;
 }
 

@@ -36,6 +36,10 @@ document.getElementById('drawButton').addEventListener('click',
             
             if(number > 50) {
                 shadeBox.textContent = `Unesite broj manji od 51`;
+                // const alertMsg = document.createElement('label');
+                // alertMsg.className = 'alert';
+                // alertMsg.textContent = 'Unesite broj manji od 51.'
+                // shadeBox.appendChild(alertMsg);
             }
         } 
     }
